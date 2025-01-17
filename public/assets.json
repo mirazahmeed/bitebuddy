@@ -12,8 +12,8 @@
         "50 ml soy sauce",
         "30 ml olive oil"
       ],
-      "preparing_time": "25 min",
-      "calories": "300 calories"
+      "preparing_time": 25,
+      "calories": 300
     },
     {
       "recipe_image": "https://i.ibb.co.com/5WVjRJb/pexels-photo-4518844.jpg",
@@ -28,8 +28,8 @@
         "2 cloves garlic",
         "20 ml olive oil"
       ],
-      "preparing_time": "30 min",
-      "calories": "450 calories"
+      "preparing_time": 30,
+      "calories": 450
     },
     {
       "recipe_image": "https://i.ibb.co.com/FXdJ0D9/pexels-photo-10696501.jpg",
@@ -44,8 +44,8 @@
         "50 g guacamole",
         "50 g shredded lettuce"
       ],
-      "preparing_time": "20 min",
-      "calories": "380 calories"
+      "preparing_time": 20,
+      "calories": 380
     },
     {
       "recipe_image": "https://i.ibb.co.com/zP53fzk/pexels-photo-2597565.webp",
@@ -60,8 +60,8 @@
         "5 g garlic powder",
         "Salt and pepper to taste"
       ],
-      "preparing_time": "15 min",
-      "calories": "350 calories"
+      "preparing_time": 15,
+      "calories": 350
     },
     {
       "recipe_image": "https://i.ibb.co.com/SrkDcDs/pexels-photo-7613562.jpg",
@@ -76,8 +76,8 @@
         "50 g salsa",
         "50 g sour cream"
       ],
-      "preparing_time": "20 min",
-      "calories": "420 calories"
+      "preparing_time": 20,
+      "calories": 420
     },
     {
       "recipe_image": "https://i.ibb.co.com/bBgTgbd/pexels-photo-3957527.jpg",
@@ -92,8 +92,8 @@
         "5 g sesame seeds",
         "Salt and pepper to taste"
       ],
-      "preparing_time": "10 min",
-      "calories": "250 calories"
+      "preparing_time": 10,
+      "calories": 250
     },
     {
       "recipe_image": "https://i.ibb.co.com/pRQ18Ff/free-photo-of-a-meal-with-mushrooms-in-a-bowl.jpg",
@@ -108,8 +108,8 @@
         "50 ml white wine",
         "50 g parmesan cheese"
       ],
-      "preparing_time": "35 min",
-      "calories": "400 calories"
+      "preparing_time": 35,
+      "calories": 400
     },
     {
       "recipe_image": "https://i.ibb.co.com/zrvk0gn/pexels-photo-2097090.jpg",
@@ -124,8 +124,8 @@
         "1 boiled egg",
         "10 g anchovies"
       ],
-      "preparing_time": "15 min",
-      "calories": "320 calories"
+      "preparing_time": 15,
+      "calories": 320
     },
     {
       "recipe_image": "https://i.ibb.co.com/1JgXkxt/pexels-photo-376464.jpg",
@@ -140,8 +140,8 @@
         "10 g baking powder",
         "30 g butter"
       ],
-      "preparing_time": "20 min",
-      "calories": "280 calories"
+      "preparing_time": 20,
+      "calories": 280
     },
     {
       "recipe_image": "https://i.ibb.co.com/5rVsLFN/pexels-photo-28897047.webp",
@@ -156,8 +156,8 @@
         "30 ml Caesar dressing",
         "10 g croutons"
       ],
-      "preparing_time": "10 min",
-      "calories": "350 calories"
+      "preparing_time": 10,
+      "calories": 350
     }
   ]
   
