@@ -1,0 +1,173 @@
+[
+    {
+      "recipe_image": "https://i.ibb.co.com/5kGCMVV/pexels-photo-10361459.jpg",
+      "recipe_id": 101,
+      "recipe_name": "Classic Chicken Stir-Fry",
+      "short_description": "A quick and flavorful stir-fry recipe with tender chicken and fresh veggies.",
+      "ingredients": [
+        "500 g chicken breast",
+        "150 g bell peppers",
+        "100 g broccoli",
+        "2 cloves garlic",
+        "50 ml soy sauce",
+        "30 ml olive oil"
+      ],
+      "preparing_time": "25 min",
+      "calories": "300 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/5WVjRJb/pexels-photo-4518844.jpg",
+      "recipe_id": 102,
+      "recipe_name": "Spaghetti Carbonara",
+      "short_description": "A creamy Italian pasta dish with pancetta and parmesan cheese.",
+      "ingredients": [
+        "400 g spaghetti",
+        "150 g pancetta",
+        "3 large eggs",
+        "50 g parmesan cheese",
+        "2 cloves garlic",
+        "20 ml olive oil"
+      ],
+      "preparing_time": "30 min",
+      "calories": "450 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/FXdJ0D9/pexels-photo-10696501.jpg",
+      "recipe_id": 103,
+      "recipe_name": "Vegetarian Burrito Bowl",
+      "short_description": "A hearty bowl packed with rice, beans, and fresh veggies.",
+      "ingredients": [
+        "200 g rice",
+        "150 g black beans",
+        "100 g corn",
+        "100 g cherry tomatoes",
+        "50 g guacamole",
+        "50 g shredded lettuce"
+      ],
+      "preparing_time": "20 min",
+      "calories": "380 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/zP53fzk/pexels-photo-2597565.webp",
+      "recipe_id": 104,
+      "recipe_name": "Grilled Salmon",
+      "short_description": "A healthy grilled salmon recipe with a lemon and herb marinade.",
+      "ingredients": [
+        "2 salmon fillets",
+        "1 lemon",
+        "20 ml olive oil",
+        "10 g fresh dill",
+        "5 g garlic powder",
+        "Salt and pepper to taste"
+      ],
+      "preparing_time": "15 min",
+      "calories": "350 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/SrkDcDs/pexels-photo-7613562.jpg",
+      "recipe_id": 105,
+      "recipe_name": "Beef Tacos",
+      "short_description": "Crispy tacos filled with seasoned beef and fresh toppings.",
+      "ingredients": [
+        "300 g ground beef",
+        "8 taco shells",
+        "100 g shredded cheese",
+        "100 g lettuce",
+        "50 g salsa",
+        "50 g sour cream"
+      ],
+      "preparing_time": "20 min",
+      "calories": "420 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/bBgTgbd/pexels-photo-3957527.jpg",
+      "recipe_id": 106,
+      "recipe_name": "Avocado Toast",
+      "short_description": "A simple and delicious avocado toast with a poached egg.",
+      "ingredients": [
+        "2 slices of bread",
+        "1 avocado",
+        "1 egg",
+        "5 g chili flakes",
+        "5 g sesame seeds",
+        "Salt and pepper to taste"
+      ],
+      "preparing_time": "10 min",
+      "calories": "250 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/pRQ18Ff/free-photo-of-a-meal-with-mushrooms-in-a-bowl.jpg",
+      "recipe_id": 107,
+      "recipe_name": "Mushroom Risotto",
+      "short_description": "A creamy risotto made with mushrooms and parmesan cheese.",
+      "ingredients": [
+        "300 g Arborio rice",
+        "200 g mushrooms",
+        "1 onion",
+        "1 clove garlic",
+        "50 ml white wine",
+        "50 g parmesan cheese"
+      ],
+      "preparing_time": "35 min",
+      "calories": "400 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/zrvk0gn/pexels-photo-2097090.jpg",
+      "recipe_id": 108,
+      "recipe_name": "Caesar Salad",
+      "short_description": "A classic Caesar salad with a homemade creamy dressing.",
+      "ingredients": [
+        "200 g romaine lettuce",
+        "50 g croutons",
+        "30 g parmesan cheese",
+        "50 ml Caesar dressing",
+        "1 boiled egg",
+        "10 g anchovies"
+      ],
+      "preparing_time": "15 min",
+      "calories": "320 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/1JgXkxt/pexels-photo-376464.jpg",
+      "recipe_id": 109,
+      "recipe_name": "Pancakes",
+      "short_description": "Fluffy pancakes perfect for breakfast with syrup and butter.",
+      "ingredients": [
+        "200 g all-purpose flour",
+        "300 ml milk",
+        "1 large egg",
+        "30 g sugar",
+        "10 g baking powder",
+        "30 g butter"
+      ],
+      "preparing_time": "20 min",
+      "calories": "280 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/5rVsLFN/pexels-photo-28897047.webp",
+      "recipe_id": 110,
+      "recipe_name": "Chicken Caesar Wrap",
+      "short_description": "A portable wrap with chicken, lettuce, and Caesar dressing.",
+      "ingredients": [
+        "1 tortilla wrap",
+        "150 g grilled chicken",
+        "50 g romaine lettuce",
+        "30 g parmesan cheese",
+        "30 ml Caesar dressing",
+        "10 g croutons"
+      ],
+      "preparing_time": "10 min",
+      "calories": "350 calories"
+    }
+  ]
+  
+
+  
+
+
+
+
+
+
+
+
