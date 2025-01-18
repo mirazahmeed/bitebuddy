@@ -1,7 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import OrderItem from "../OrderItem/OrderItem";
+import CurrentlyCooking from "../CurrentlyCooking/CurrentlyCooking";
 
-const Preparing = ({ cooker, setForCooking }) => {
+const Preparing = ({ cooker }) => {
+    const [currentlyCooking, setCurrentlyCooking] = useState([]);
+
+
+
+
+    const setForCooking = (cooking) => {
+        setCurrentlyCooking((prev) => [...prev, cooking]); // Add to currentlyCooking state
+        console.log("Added to currently cooking:", cooking);
+    };
+
+
     return (
         <div>
             <div>
@@ -24,7 +36,7 @@ const Preparing = ({ cooker, setForCooking }) => {
                             <tbody>
                                 {cooker.map((order, index) => (
                                     <OrderItem
-                                    setForCooking={setForCooking}
+                                        setForCooking={setForCooking}
                                         key={order.recipe_id}
                                         index={index + 1}
                                         order={order}
@@ -35,7 +47,7 @@ const Preparing = ({ cooker, setForCooking }) => {
                     </div>
                     <h2 className="text-lg font-bold mt-8 mb-4">
                         Currently cooking:{" "}
-                        <span className="text-primary">02</span>
+                        <span className="text-primary">{currentlyCooking.length}</span>
                     </h2>
                     <div className="overflow-x-auto">
                         <table className="table w-full">
@@ -48,8 +60,13 @@ const Preparing = ({ cooker, setForCooking }) => {
                                 </tr>
                             </thead>
                             <tbody>
-                                
-                                
+                                {currentlyCooking.map((order, index) => (
+                                    <CurrentlyCooking
+                                        key={order.recipe_id}
+                                        index={index + 1}
+                                        order={order}
+                                    />
+                                ))}
                             </tbody>
                         </table>
                     </div>

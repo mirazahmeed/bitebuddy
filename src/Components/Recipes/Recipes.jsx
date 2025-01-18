@@ -18,15 +18,6 @@ const Recipes = () => {
         setCooker([...cooker, order]);
     };
 
-    const [currentlyCooking, SetCurrentlyCooking] = useState([]);
-
-    const setForCooking = (Prepar) => {
-        // SetCurrentlyCooking(Prepar);
-        // setTimeout(() => {
-        //     SetCurrentlyCooking(null);
-        // }, 5000);
-        console.log("setForCooking");
-    };
 
     return (
         <div className="mt-20">
@@ -50,8 +41,6 @@ const Recipes = () => {
                 </div>
                 <div className="lg:w-2/5 md:w-1/2">
                     <Preparing
-                        currentlyCooking={currentlyCooking}
-                        setForCooking={setForCooking}
                         cooker={cooker}
                     ></Preparing>
                 </div>
