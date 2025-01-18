@@ -1,6 +1,13 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-const OrderItem = ({ order, index, setForCooking }) => {
+const OrderItem = ({
+    order,
+    index,
+    setForCooking,
+    calculateCookingTime,
+    calculateTotalCalories,
+}) => {
     const { recipe_name, preparing_time, calories } = order;
     return (
         <tr>
@@ -10,7 +17,11 @@ const OrderItem = ({ order, index, setForCooking }) => {
             <td>{calories}</td>
             <td>
                 <button
-                    onClick={() => setForCooking(order)}
+                    onClick={() => {
+                        setForCooking(order);
+                        calculateCookingTime(preparing_time);
+                        calculateTotalCalories(calories);
+                    }}
                     className="badge badge-success text-white p-2"
                 >
                     Preparing
@@ -18,6 +29,13 @@ const OrderItem = ({ order, index, setForCooking }) => {
             </td>
         </tr>
     );
+};
+
+OrderItem.propTypes = {
+    order: PropTypes.object.isRequired,
+    index: PropTypes.number.isRequired,
+    setForCooking: PropTypes.func.isRequired,
+    calculateCookingTime: PropTypes.func.isRequired,
 };
 
 export default OrderItem;

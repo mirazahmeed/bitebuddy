@@ -29,7 +29,7 @@ const Recipes = () => {
                     volutpat curabitur elementum mauris aenean neque.
                 </p>
             </div>
-            <div className="flex lg:flex-row md:flex-row mt-10 sm:flex-col-reverse gap-10">
+            <div className="flex lg:flex-row md:flex-row mt-10 flex-col-reverse gap-10">
                 <div className="lg:w-3/5 md:w-1/2 grid lg:grid-cols-2 md:grid-cols-1 gap-10">
                     {cards.map((card, index) => (
                         <Recipe

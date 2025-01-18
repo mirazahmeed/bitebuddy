@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const CurrentlyCooking = ({order, index}) => {
     const { recipe_name, preparing_time, calories } = order;
@@ -11,6 +12,11 @@ const CurrentlyCooking = ({order, index}) => {
         </tr>
     );
 };
+
+CurrentlyCooking.propTypes = {
+    order: PropTypes.object.isRequired,
+    index: PropTypes.number.isRequired,
+}
 
 
 export default CurrentlyCooking;
