@@ -40,9 +40,11 @@ const Recipes = () => {
                     ))}
                 </div>
                 <div className="lg:w-2/5 md:w-1/2">
+                <div className="sticky top-20">
                     <Preparing
                         cooker={cooker}
                     ></Preparing>
+                    </div>
                 </div>
             </div>
         </div>

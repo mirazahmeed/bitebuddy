@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import OrderItem from "../OrderItem/OrderItem";
 import CurrentlyCooking from "../CurrentlyCooking/CurrentlyCooking";
 import PropTypes from "prop-types";
-import Calculation from "./Calculation/Calculation";
+import Calculation from "../Calculation/Calculation";
+import "./Preparing.css";
 
 const Preparing = ({ cooker }) => {
     const [currentlyCooking, setCurrentlyCooking] = useState([]);

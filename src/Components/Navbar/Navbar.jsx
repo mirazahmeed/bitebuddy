@@ -1,9 +1,11 @@
 import React from "react";
+import { MdOutlineShoppingCart } from "react-icons/md";
+
 
 const Navbar = () => {
     return (
-        <div>
-            <div>
+        <div className="sticky top-0 z-50">
+            <div className="">
                 <div className="navbar bg-base-100">
                     <div className="navbar-start">
                         <div className="dropdown">
@@ -40,12 +42,11 @@ const Navbar = () => {
                                 <li>
                                     <a>About</a>
                                 </li>
-                                <li>
-                                    <a>Search</a>
-                                </li>
                             </ul>
                         </div>
-                        <a className="btn btn-ghost text-xl hover:bg-[#35f3a3]">BiteBuddy</a>
+                        <a className="btn btn-ghost text-xl hover:bg-[#35f3a3]">
+                            BiteBuddy
+                        </a>
                     </div>
 
                     <div className="navbar-center hidden lg:flex">
@@ -59,9 +60,6 @@ const Navbar = () => {
                             <li>
                                 <a>About</a>
                             </li>
-                            <li>
-                                <a>Search</a>
-                            </li>
                         </ul>
                     </div>
                     <div className="navbar-end">
@@ -71,6 +69,11 @@ const Navbar = () => {
                                 placeholder="Search"
                                 className="input input-bordered w-24 md:w-auto"
                             />
+                        </div>
+                        <div>
+                            <button className="text-2xl p-2 border rounded-full m-1">
+                                <MdOutlineShoppingCart />
+                            </button>
                         </div>
                         <div className="dropdown dropdown-end">
                             <div
